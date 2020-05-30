@@ -11,7 +11,7 @@ Project 6
 
 ## Introduction
 
-![Result](./images/track_one.gif)
+![Result](https://github.com/Ansheel9/Kidnapped-Vehicle/blob/master/extra/working.gif)
 
 Your car has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
@@ -96,6 +96,8 @@ root
 ```
 ## Project Structure
 
+![Structure](https://github.com/Ansheel9/Kidnapped-Vehicle/blob/master/extra/projstruct.png)
+
 Traditional vehicles use GPS localization embedded in the navigation system. As long as a human is driving the car this localization is good enough.
 
 The GPS localizes the car with an accuracy of about 2 meters giving the driver a general idea of where he/she is. The driver then visually percieves the world to get a sense of what's around. He/she can see how far the car is from the curb or stop sign and that is how he/she's able to maneuver the car.
@@ -108,10 +110,8 @@ The self driving car also needs a map, but this is no usual map like in traditio
 
 Most landmark maps are built using LiDAR measurements, recording the landmark positions while the car is being driven around by a human driver. This means that the self driving car has seen the streets before driving on them.
 
-![training_img](./images/track_one.gif)
-
 ## Result
 
-![training_img](./images/track_one.gif)
+![training_img](https://github.com/Ansheel9/Kidnapped-Vehicle/blob/master/extra/Kidnapped_Result.png)
 
 Implementation was declared as pass since the error and the execution time of code was in permissible limits.
